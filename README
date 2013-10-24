@@ -1,0 +1,31 @@
+Tag parser -  script, which can grab pages with links on pictures
+from Konachan. Working only with Python 3(but it can be ported on python 2).
+
+How to use:
+    Run srcipt from terminal with command:
+        $ python3 /way_to_script/.wallgrabber/Tag_parser.py
+        Insert tags, which you wish to see on your wallpaper.
+        Insert number of pages(so many pictures, as many of pages).
+
+        Script will download links on pictures to text file in directory, which named "/lists".
+
+        Than you can use second part of script for downloading and installation
+        or use lists create with Tag_parser with your own script.
+
+Main features:
+    + Censored or uncut pictures.
+    + Multi-tags.
+    + Changeable number of pages to downoad.
+
+
+Config - file, where you can set tag. Just replace example tag with your disire tag(which is already created by Tag_parser.py!).
+
+
+Wallpaper_switcher - script, which download and set background wallpaper.
+How to use:
+    In the prompt, type the following code:
+       crontab -e
+    Than add this string to your cron config:
+    	 00 * * * * export DISPLAY=:0.0 && python3 /home/*user*/.wallgrabber/Wallpaper_switcher.py
+    where *user* is name of user dir.
+    Save new config and after that every 1 hour script will be download and install new wallpaper.
