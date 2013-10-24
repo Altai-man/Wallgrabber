@@ -12,13 +12,8 @@ How to use:
         Than you can use second part of script for downloading and installation
         or use lists create with Tag_parser with your own script.
 
-Main features:
-    + Censored or uncut pictures.
-    + Multi-tags.
-    + Changeable number of pages to downoad.
 
-
-Config - file, where you can set tag. Just replace example tag with your disire tag(which is already created by Tag_parser.py!).
+Config - file, where you can set tag to use. Just replace example tag with your disire tag(which is already created by Tag_parser.py!).
 
 
 Wallpaper_switcher - script, which download and set background wallpaper.
