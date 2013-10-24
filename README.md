@@ -14,8 +14,8 @@ Features
  + Changeable number of pages to downoad.
 
 
-===========
 Installation
+===========
   - Download archive.
   - In your home-directory create directory ".wallgrabber".
   - Unpack archive in ".wallgrabber" directory(paths are be like "/*user-directory*/.wallgrabber/Tag_parser.py", etc.)
