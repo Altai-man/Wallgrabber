@@ -24,27 +24,6 @@
 #
 #
 '''
-   Docs(sorry for my English at all).
-    This script is a part of Wallgrabber app. It can grab page with links on pictures
-    from Konachan. Working only with Python 3.
-
-    How to use:
-        Run srcipt from terminal with command:
-            $ python3 /way_to_script/Wallgrabber/Tag_parser.py
-        Insert tags, which you wish to see on your wallpaper.
-        Insert number of pages(so many of pictures, as many of pages).
-
-    Script will download links on pictures to text file in directory, which named "/lists".
-
-    Than you can use second part of script for downloading and installation
-    or use lists create with Tag_parser with your own script. Enjoy.
-
-    Main features:
-
-       + Censored or uncut pictures.
-       + Multi-tags.
-       + Changeable number of pages to downoad.
-
     Functions:
 
           === main() - main script, used with all other func. Ask user

@@ -26,7 +26,6 @@
 
 
 """
-   Docs.
     This script is a part of Wallgrabber app.
 
     Functions:
